@@ -1,0 +1,20 @@
+body[data-chapter="1"]{background:#726f5b;isolation:isolate}
+body[data-chapter="1"]::before{display:block;background:linear-gradient(#27352780,#27352780),url('media/cover.png') center center/cover no-repeat;filter:blur(4px);transform:scale(1.035)}
+body[data-chapter="1"] .simple-header .back-home{background:#fff9eceb;padding:8px 13px;border:1px solid #ffffffe0;border-radius:10px;color:#5e6550}
+body[data-chapter="1"] .book-top{background:#fff9ece3;border:1px solid #ffffffa3;border-radius:14px;padding:13px 18px;margin:15px 0 23px;backdrop-filter:blur(10px)}
+body[data-chapter="1"] .book-sidebar{position:sticky;top:20px;background:#fff9ece6;border:1px solid #ffffffa8;border-radius:16px;padding:22px 16px;backdrop-filter:blur(12px);align-self:start}
+body[data-chapter="1"] .book-sidebar h2{font-size:25px;color:#7e6655;margin:0 0 24px}
+body[data-chapter="1"] .book-sidebar nav button{font-size:11px;color:#7e7c66;line-height:1.7}
+body[data-chapter="1"] .book-sidebar nav button[aria-current]{background:#e4e7d2;color:#4a5e3e}
+body[data-chapter="1"] .book-page{background:#fffaefe8;border:1px solid #ffffffe0;border-radius:20px;backdrop-filter:blur(13px);box-shadow:0 15px 50px #18231826;min-height:700px;padding:34px}
+body[data-chapter="1"] .book-page h1{font-size:43px;line-height:1.2;letter-spacing:-1px;color:#765d4f}
+body[data-chapter="1"] .story-paragraph{color:#626850;font-size:15px;line-height:2}
+body[data-chapter="1"] .story-photos{grid-template-columns:repeat(2,minmax(0,1fr));align-items:start;gap:17px;margin-top:30px}
+body[data-chapter="1"] .story-photo{padding:7px;background:#fffdf7;border:1px solid #e5dfcf;border-radius:13px;box-shadow:0 5px 17px #6c4c350a}
+body[data-chapter="1"] .story-photo img{border-radius:8px;max-height:620px;object-fit:contain}
+body[data-chapter="1"] .story-photo:only-child{grid-column:1/-1}
+body[data-chapter="1"] .book-controls{background:#fff9ece6;border:1px solid #ffffffaf;border-radius:14px;padding:15px 17px;backdrop-filter:blur(8px)}
+body[data-chapter="1"] .book-controls span{color:#6c755c}
+body[data-chapter="1"] .toc-list button{font-size:12px;gap:15px;line-height:1.6;padding:15px 4px}
+body[data-chapter="1"] .toc-list button strong{font-weight:400}
+@media(max-width:760px){body[data-chapter="1"] .book-page{padding:25px 20px;min-height:560px}body[data-chapter="1"] .book-top{padding:12px 13px;gap:10px}body[data-chapter="1"] .book-page h1{font-size:36px}body[data-chapter="1"] .book-controls{padding:12px;gap:10px}body[data-chapter="1"] .book-top>.eyebrow{font-size:8px}body[data-chapter="1"] .story-photos{grid-template-columns:1fr}body[data-chapter="1"] .story-paragraph{font-size:14px}body[data-chapter="1"] .book-sidebar{display:none}body[data-chapter="1"] .book-layout{display:block}}
