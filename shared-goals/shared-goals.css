@@ -1,0 +1,8 @@
+.fixed-goals{list-style:none;padding:0;margin:25px 0 60px}.fixed-goals .goal{border-left:7px solid var(--goal-color);display:block}.fixed-goals .goal label{cursor:pointer;display:flex;align-items:center;gap:16px;min-height:30px;font-size:15px}.fixed-goals input{width:20px;height:20px;accent-color:#506e50;flex-shrink:0}.fixed-goals .completed span{text-decoration:line-through;color:#697861}.fixed-goals .completed{background:#e9efdf}.fixed-goals .goal:hover{background:#f2f6eb}body[data-page="goals"] .container{max-width:850px}body[data-page="goals"] .lead{color:#52694d}body[data-page="goals"] progress{accent-color:#78966a}
+
+/* Supplied page background and a readable surface. */
+body[data-page="goals"]{background:#dce6ce url('../images/goalsbg.jpg') center center/cover no-repeat fixed}
+body[data-page="goals"]::before{display:none}
+body[data-page="goals"] .container{width:calc(100% - 28px);margin:14px auto 35px;padding:25px;border:1px solid #ffffffe0;border-radius:24px;background:#f8fbf1ed;box-shadow:0 18px 50px #344a3b18}
+body[data-page="goals"] .back-home{background:#f8fbf1f5;border:1px solid #ffffffcf;border-radius:11px;padding:9px 14px;color:#3b5634}
+@media(max-width:760px){body[data-page="goals"]{background-attachment:scroll;background-position:center top}body[data-page="goals"] .container{width:calc(100% - 24px);padding:20px 16px;margin-top:8px;border-radius:19px}}
